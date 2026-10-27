@@ -1,0 +1,312 @@
+{
+  "summary": {
+    "sessions": 56,
+    "records": 363547,
+    "validCanFrames": 324588,
+    "odometerSamples": 300,
+    "odometerSessions": 34,
+    "odometerAggregateDeltaKm": 245,
+    "canAggregateKm": 245.1854,
+    "canIntervals90pct": 82,
+    "canIntervalMedianAbsoluteErrorM": 3.7277679367197503,
+    "canIntervalMaxAbsoluteErrorM": 43.38513653741938,
+    "gpsIntervals90pct": 109,
+    "gpsIntervalMedianAbsoluteErrorM": 49.33665037348134,
+    "lampBroadcasts": 48,
+    "lampOnPairs": {
+      "192": 14
+    },
+    "keyMessages": 394,
+    "keyUnmatchedWithin500ms": 0
+  },
+  "keyValues": {
+    "0c01010000": 92,
+    "0a01000000": 164,
+    "0d01010000": 77,
+    "0c02010000": 5,
+    "0d02010000": 40,
+    "0501000000": 2,
+    "0a02000000": 2,
+    "2901000000": 9,
+    "2902000000": 1,
+    "0b01000000": 2
+  },
+  "keyPairs": [
+    {
+      "raw": "0101",
+      "broadcast": "0c01010000",
+      "count": 52
+    },
+    {
+      "raw": "0401",
+      "broadcast": "0a01000000",
+      "count": 164
+    },
+    {
+      "raw": "1201",
+      "broadcast": "0d01010000",
+      "count": 76
+    },
+    {
+      "raw": "1101",
+      "broadcast": "0c01010000",
+      "count": 40
+    },
+    {
+      "raw": "1102",
+      "broadcast": "0c02010000",
+      "count": 5
+    },
+    {
+      "raw": "1202",
+      "broadcast": "0d02010000",
+      "count": 40
+    },
+    {
+      "raw": "0201",
+      "broadcast": "0501000000",
+      "count": 2
+    },
+    {
+      "raw": "0402",
+      "broadcast": "0a02000000",
+      "count": 2
+    },
+    {
+      "raw": "1200",
+      "broadcast": "0d01010000",
+      "count": 1
+    },
+    {
+      "raw": "1301",
+      "broadcast": "2901000000",
+      "count": 9
+    },
+    {
+      "raw": "1302",
+      "broadcast": "2902000000",
+      "count": 1
+    },
+    {
+      "raw": "0301",
+      "broadcast": "0b01000000",
+      "count": 2
+    }
+  ],
+  "unmatchedKeys": {},
+  "radar": {
+    "count": 105,
+    "withSpeed": 104,
+    "maxSpeed": 2.19,
+    "speedMedian": 0.5,
+    "values": [
+      {
+        "data": [
+          0,
+          0,
+          1,
+          0
+        ],
+        "count": 19
+      },
+      {
+        "data": [
+          0,
+          0,
+          0,
+          0
+        ],
+        "count": 40
+      },
+      {
+        "data": [
+          0,
+          0,
+          2,
+          2
+        ],
+        "count": 6
+      },
+      {
+        "data": [
+          0,
+          0,
+          0,
+          2
+        ],
+        "count": 9
+      },
+      {
+        "data": [
+          0,
+          0,
+          2,
+          0
+        ],
+        "count": 7
+      },
+      {
+        "data": [
+          2,
+          0,
+          2,
+          0
+        ],
+        "count": 7
+      },
+      {
+        "data": [
+          2,
+          0,
+          0,
+          0
+        ],
+        "count": 4
+      },
+      {
+        "data": [
+          0,
+          0,
+          1,
+          2
+        ],
+        "count": 2
+      },
+      {
+        "data": [
+          2,
+          0,
+          2,
+          2
+        ],
+        "count": 5
+      },
+      {
+        "data": [
+          2,
+          0,
+          3,
+          2
+        ],
+        "count": 2
+      },
+      {
+        "data": [
+          0,
+          0,
+          3,
+          3
+        ],
+        "count": 2
+      },
+      {
+        "data": [
+          0,
+          0,
+          3,
+          2
+        ],
+        "count": 1
+      },
+      {
+        "data": [
+          2,
+          0,
+          1,
+          0
+        ],
+        "count": 1
+      }
+    ]
+  },
+  "doors": {
+    "count": 50,
+    "withSpeed": 11,
+    "maxSpeed": 1.46,
+    "values": [
+      {
+        "data": [
+          4,
+          255,
+          255
+        ],
+        "count": 3
+      },
+      {
+        "data": [
+          0,
+          255,
+          255
+        ],
+        "count": 23
+      },
+      {
+        "data": [
+          16,
+          255,
+          255
+        ],
+        "count": 14
+      },
+      {
+        "data": [
+          18,
+          255,
+          255
+        ],
+        "count": 1
+      },
+      {
+        "data": [
+          20,
+          255,
+          255
+        ],
+        "count": 1
+      },
+      {
+        "data": [
+          2,
+          255,
+          255
+        ],
+        "count": 2
+      },
+      {
+        "data": [
+          32,
+          255,
+          255
+        ],
+        "count": 5
+      },
+      {
+        "data": [
+          8,
+          255,
+          255
+        ],
+        "count": 1
+      }
+    ]
+  },
+  "steering": {
+    "pairs": 80154,
+    "pearson": -0.9976146543806355
+  },
+  "speedUpperBytes": [
+    {
+      "bytes": [
+        0,
+        0
+      ],
+      "count": 113273
+    }
+  ],
+  "referencePlugin": {
+    "firmware": "XY AUTO 9212A 8.0.1",
+    "path": "/media/CanBus/plugin/1/15/P1_008.apk",
+    "sha256": "1d7e3efff45171d22f820a69fa4294845c9c386aa73dbdb260f2ca0685984787",
+    "installedPluginIdentityVerified": false
+  }
+}

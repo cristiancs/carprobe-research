@@ -1,0 +1,528 @@
+{
+  "counts": {
+    "bytesDecompressed": 151830481,
+    "records": 754601,
+    "validFrames": 680434
+  },
+  "sessions": 102,
+  "realSessionsWithFrames": 89,
+  "parseErrors": 37,
+  "layouts": {
+    "29/2": {
+      "messages": 236333,
+      "sessions": 89,
+      "distinctPayloads": 9781,
+      "topPayloads": [
+        [
+          "ffe3",
+          2040
+        ],
+        [
+          "ffde",
+          1959
+        ],
+        [
+          "ffdd",
+          1902
+        ],
+        [
+          "ffdc",
+          1897
+        ],
+        [
+          "ffdf",
+          1853
+        ],
+        [
+          "ffe1",
+          1839
+        ],
+        [
+          "ffe2",
+          1824
+        ],
+        [
+          "ffd5",
+          1818
+        ],
+        [
+          "ffe8",
+          1799
+        ],
+        [
+          "ffeb",
+          1798
+        ],
+        [
+          "ffe7",
+          1783
+        ],
+        [
+          "ffe6",
+          1777
+        ]
+      ]
+    },
+    "7D/01/2": {
+      "messages": 43391,
+      "sessions": 78,
+      "distinctPayloads": 12,
+      "topPayloads": [
+        [
+          "0100",
+          17190
+        ],
+        [
+          "0108",
+          8281
+        ],
+        [
+          "0110",
+          7733
+        ],
+        [
+          "01c0",
+          4543
+        ],
+        [
+          "01c8",
+          1918
+        ],
+        [
+          "01d0",
+          1563
+        ],
+        [
+          "0118",
+          1130
+        ],
+        [
+          "01d8",
+          1000
+        ],
+        [
+          "0180",
+          29
+        ],
+        [
+          "0120",
+          2
+        ],
+        [
+          "0188",
+          1
+        ],
+        [
+          "01e0",
+          1
+        ]
+      ]
+    },
+    "7D/03/5": {
+      "messages": 240528,
+      "sessions": 79,
+      "distinctPayloads": 2045,
+      "topPayloads": [
+        [
+          "0300000000",
+          1906
+        ],
+        [
+          "0316000000",
+          1086
+        ],
+        [
+          "031c000000",
+          960
+        ],
+        [
+          "0321000000",
+          869
+        ],
+        [
+          "0332000000",
+          806
+        ],
+        [
+          "032d000000",
+          800
+        ],
+        [
+          "035a000000",
+          736
+        ],
+        [
+          "0327000000",
+          720
+        ],
+        [
+          "0338000000",
+          707
+        ],
+        [
+          "0343000000",
+          704
+        ],
+        [
+          "033d000000",
+          677
+        ],
+        [
+          "0349000000",
+          657
+        ]
+      ]
+    },
+    "7D/08/3": {
+      "messages": 156239,
+      "sessions": 85,
+      "distinctPayloads": 1156,
+      "topPayloads": [
+        [
+          "080200",
+          10158
+        ],
+        [
+          "080300",
+          9548
+        ],
+        [
+          "080100",
+          9184
+        ],
+        [
+          "080400",
+          8248
+        ],
+        [
+          "080000",
+          7281
+        ],
+        [
+          "08ffff",
+          7235
+        ],
+        [
+          "080500",
+          6986
+        ],
+        [
+          "080600",
+          5977
+        ],
+        [
+          "080700",
+          5147
+        ],
+        [
+          "080800",
+          4352
+        ],
+        [
+          "080900",
+          3537
+        ],
+        [
+          "08feff",
+          3451
+        ]
+      ]
+    },
+    "30/1": {
+      "messages": 1234,
+      "sessions": 73,
+      "distinctPayloads": 2,
+      "topPayloads": [
+        [
+          "80",
+          630
+        ],
+        [
+          "00",
+          604
+        ]
+      ]
+    },
+    "7D/04/6": {
+      "messages": 642,
+      "sessions": 73,
+      "distinctPayloads": 642
+    },
+    "20/2": {
+      "messages": 1486,
+      "sessions": 48,
+      "distinctPayloads": 18,
+      "topPayloads": [
+        [
+          "0401",
+          241
+        ],
+        [
+          "0400",
+          241
+        ],
+        [
+          "1200",
+          202
+        ],
+        [
+          "1201",
+          195
+        ],
+        [
+          "0100",
+          122
+        ],
+        [
+          "0101",
+          119
+        ],
+        [
+          "1100",
+          101
+        ],
+        [
+          "1101",
+          100
+        ],
+        [
+          "1202",
+          94
+        ],
+        [
+          "1102",
+          26
+        ],
+        [
+          "1301",
+          14
+        ],
+        [
+          "1300",
+          12
+        ]
+      ]
+    },
+    "22/4": {
+      "messages": 286,
+      "sessions": 33,
+      "distinctPayloads": 17,
+      "topPayloads": [
+        [
+          "00000000",
+          108
+        ],
+        [
+          "00000100",
+          57
+        ],
+        [
+          "00000200",
+          27
+        ],
+        [
+          "00000002",
+          18
+        ],
+        [
+          "02000200",
+          16
+        ],
+        [
+          "00000202",
+          14
+        ],
+        [
+          "02000202",
+          12
+        ],
+        [
+          "02000000",
+          11
+        ],
+        [
+          "00000102",
+          8
+        ],
+        [
+          "02000100",
+          3
+        ],
+        [
+          "00000303",
+          2
+        ],
+        [
+          "03000000",
+          2
+        ]
+      ]
+    },
+    "FF/19": {
+      "messages": 9,
+      "sessions": 6,
+      "distinctPayloads": 1
+    },
+    "52/2": {
+      "messages": 175,
+      "sessions": 7,
+      "distinctPayloads": 19
+    },
+    "3A/3": {
+      "messages": 111,
+      "sessions": 23,
+      "distinctPayloads": 15,
+      "topPayloads": [
+        [
+          "00ffff",
+          40
+        ],
+        [
+          "10ffff",
+          25
+        ],
+        [
+          "04ffff",
+          9
+        ],
+        [
+          "20ffff",
+          9
+        ],
+        [
+          "08ffff",
+          8
+        ],
+        [
+          "02ffff",
+          4
+        ],
+        [
+          "30ffff",
+          4
+        ],
+        [
+          "0cffff",
+          3
+        ],
+        [
+          "12ffff",
+          2
+        ],
+        [
+          "24ffff",
+          2
+        ],
+        [
+          "14ffff",
+          1
+        ],
+        [
+          "28ffff",
+          1
+        ]
+      ]
+    }
+  },
+  "extraFields": [
+    {
+      "field": [
+        "xy.auto.canbus.rxpduses",
+        "rxpduses",
+        "byte[]"
+      ],
+      "count": 680434
+    },
+    {
+      "field": [
+        "canbus.intent.action.key",
+        "canbus_key",
+        "byte[]"
+      ],
+      "count": 800
+    },
+    {
+      "field": [
+        "xy.xygala.lamplet",
+        "lamplet_state",
+        "str"
+      ],
+      "count": 140
+    },
+    {
+      "field": [
+        "xy.auto.canbus.connectionsta",
+        "connectionsta",
+        "str"
+      ],
+      "count": 453
+    }
+  ],
+  "scope": {
+    "nonSyntheticChunks": 107,
+    "excludedSyntheticChunks": 3,
+    "missingChunks": 0
+  },
+  "candidate": {
+    "layout": "7D/04/6",
+    "offsetsInData": [
+      4,
+      5
+    ],
+    "littleEndianSamples": 642,
+    "sessions": 73,
+    "rawRange": [
+      670,
+      1020
+    ],
+    "unit": "unverified",
+    "stableCaptureGroups": [
+      {
+        "rawValue": 670,
+        "sessions": 10,
+        "observedDistanceKm": 107.55897415578895,
+        "observedSeconds": 14828.734998226166,
+        "stoppedSeconds": 1016.9249978065491,
+        "maximumSpeedKmh": 98.38
+      },
+      {
+        "rawValue": 680,
+        "sessions": 20,
+        "observedDistanceKm": 147.69846376314064,
+        "observedSeconds": 20189.48300099373,
+        "stoppedSeconds": 1234.2230024337769,
+        "maximumSpeedKmh": 110.53
+      },
+      {
+        "rawValue": 750,
+        "sessions": 36,
+        "observedDistanceKm": 291.078062280294,
+        "observedSeconds": 33571.344002723694,
+        "stoppedSeconds": 1502.9370012283325,
+        "maximumSpeedKmh": 117.16
+      },
+      {
+        "rawValue": 940,
+        "sessions": 1,
+        "observedDistanceKm": 0.8157170569810602,
+        "observedSeconds": 144.2699999809265,
+        "stoppedSeconds": 1.86899995803833,
+        "maximumSpeedKmh": 48.37
+      }
+    ]
+  },
+  "referenceFirmware": {
+    "filename": "gongban_9212A_1024x768_hw-ota-v8.0.1.zip",
+    "sha256": "0e7e8c965a7c2a394ce6b1a33a6c3b90ddb860fbd129b0df4f6736b028ccfff7",
+    "changanPluginSha256": "1d7e3efff45171d22f820a69fa4294845c9c386aa73dbdb260f2ca0685984787",
+    "hostSha256": "36fd989f640991dcb6758863c7a66a67ed6dd35b9c2fa69c38daf561e91aeb3a",
+    "installedPluginIdentityVerified": false,
+    "changanFuelDecoderFound": false,
+    "comparisonFuelMessage": "Honda/Suzuki: 0x33 subtype 1, length >= 15; no 0x33 observed in captures"
+  },
+  "conclusion": {
+    "instantaneous": "No identified fuel-flow, MAF or instantaneous-consumption signal in the observed export. Candidate 7D/04 is unsuitable for instantaneous use. This does not prove the car cannot supply fuel data through another channel.",
+    "average": "7D/04 tail remains a hypothesis, not a validated fuel value. Physical meaning, scale and averaging/reset interval remain unverified.",
+    "scope": "Read-only analysis; no vehicle commands, app changes or new publication."
+  }
+}

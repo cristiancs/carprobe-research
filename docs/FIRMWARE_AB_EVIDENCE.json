@@ -1,0 +1,225 @@
+{
+  "date": "2026-09-20",
+  "method": "Static offline analysis; no firmware code executed; no radio writes",
+  "scope": "Two international OTA 8.0.1 packages; comparison does not establish universal A/B differences or device compatibility",
+  "packages": {
+    "9212A": {
+      "size": 977024571,
+      "sha256": "0e7e8c965a7c2a394ce6b1a33a6c3b90ddb860fbd129b0df4f6736b028ccfff7",
+      "zip_entries": 20,
+      "extracted_zip_crc_validation": "passed for all entries",
+      "boot": {
+        "kernel_size": 5900687,
+        "ramdisk_size": 1029527,
+        "page_size": 2048,
+        "kernel_addr": "0x80008000",
+        "ramdisk_addr": "0x84000000",
+        "second_size": 0,
+        "dt_size": 0,
+        "name": "",
+        "cmdline": "buildvariant=user",
+        "linux_version": "Linux version 4.14.116 (AndroidOS@localhost) (gcc version 6.3.1 20170404 (Linaro GCC 6.3-2017.05) ) #1 SMP PREEMPT Thu Dec 7 13:48:10 CST 2023\n"
+      }
+    },
+    "9212B": {
+      "size": 969254262,
+      "sha256": "7e6cc5cc49b0d89df73288d24c39e68e3ffe459902691313d5ab881dbdbda6a7",
+      "zip_entries": 20,
+      "extracted_zip_crc_validation": "passed for all entries",
+      "boot": {
+        "kernel_size": 5910239,
+        "ramdisk_size": 1030082,
+        "page_size": 2048,
+        "kernel_addr": "0x80008000",
+        "ramdisk_addr": "0x84000000",
+        "second_size": 0,
+        "dt_size": 0,
+        "name": "",
+        "cmdline": "buildvariant=user",
+        "linux_version": "Linux version 4.14.116 (AndroidOS@localhost) (gcc version 6.3.1 20170404 (Linaro GCC 6.3-2017.05) ) #1 SMP PREEMPT Thu Nov 30 18:03:02 CST 2023\n"
+      }
+    }
+  },
+  "selected_files": {
+    "boot_parts/kernel.config": {
+      "9212A": {
+        "size": 115271,
+        "sha256": "7eef7291a26bcba36e3d533819ae6aadbc00f932fb119e83c1b4ca3317df35fc"
+      },
+      "9212B": {
+        "size": 115271,
+        "sha256": "7eef7291a26bcba36e3d533819ae6aadbc00f932fb119e83c1b4ca3317df35fc"
+      }
+    },
+    "scatter.txt": {
+      "9212A": {
+        "size": 440,
+        "sha256": "79b7988796480c5fd4a46aa09d2ea470325557aaf5b4a3fd4cd22536251f3cde"
+      },
+      "9212B": {
+        "size": 440,
+        "sha256": "79b7988796480c5fd4a46aa09d2ea470325557aaf5b4a3fd4cd22536251f3cde"
+      }
+    },
+    "armkeyword.bin": {
+      "9212A": {
+        "size": 14,
+        "sha256": "8fcb906c743461179a231c4e581418957e7f5d1678bcc24abb7532b8c0de9b0d"
+      },
+      "9212B": {
+        "size": 14,
+        "sha256": "6669b4d9b31f58c0529d259c821a19e541d04b85440a0eb2a7ac510721170988"
+      }
+    },
+    "arm2.bin": {
+      "9212A": {
+        "size": 676464,
+        "sha256": "7d245d29642d841c2ca35dba8e18585c4a81f5507e55c531afebddd4f3c5c20a"
+      },
+      "9212B": {
+        "size": 676464,
+        "sha256": "b674a270c6846c619d2338c0f54b0400cb49a83a84f47db0b788feea7034e349"
+      }
+    },
+    "lk.img": {
+      "9212A": {
+        "size": 357120,
+        "sha256": "e32afec0e9cb5a8718076c773495ea8d6720b3e78a305d023c401cb916628818"
+      },
+      "9212B": {
+        "size": 357120,
+        "sha256": "83f75797a0baacf758c3d79a955ec49a5df10f2e6a80f0733a49870caaf1ebed"
+      }
+    },
+    "tee.img": {
+      "9212A": {
+        "size": 1387760,
+        "sha256": "b6fe21a613b321e1e94c4b38d6ccda80550348528e2b4a10f6c6355ac7b112cd"
+      },
+      "9212B": {
+        "size": 1387760,
+        "sha256": "b6fe21a613b321e1e94c4b38d6ccda80550348528e2b4a10f6c6355ac7b112cd"
+      }
+    },
+    "META-INF/com/google/android/update-binary": {
+      "9212A": {
+        "size": 1309120,
+        "sha256": "1fdb6c79233c01a112372ce71c8ff40264b4ff0a3830bca0b8d4c153788c1426"
+      },
+      "9212B": {
+        "size": 1309120,
+        "sha256": "1fdb6c79233c01a112372ce71c8ff40264b4ff0a3830bca0b8d4c153788c1426"
+      }
+    },
+    "files/system/SoundEffects/SoundEffects.apk": {
+      "9212A": {
+        "size": 4746276,
+        "sha256": "5d05468d56d4953206f84b16c8bcd8f50534a4ee13c2060a7fa9a3fbc1a8a590"
+      },
+      "9212B": {
+        "size": 4746276,
+        "sha256": "5d05468d56d4953206f84b16c8bcd8f50534a4ee13c2060a7fa9a3fbc1a8a590"
+      }
+    },
+    "files/system/lib/libXYPQjni.so": {
+      "9212A": {
+        "size": 21116,
+        "sha256": "9a8ea568e4ac3656e523b5816bcf4fe242792b3b7363b19f51d877269e0f62bf"
+      },
+      "9212B": {
+        "size": 21116,
+        "sha256": "9a8ea568e4ac3656e523b5816bcf4fe242792b3b7363b19f51d877269e0f62bf"
+      }
+    },
+    "files/vendor/lib/hw/audio.primary.ac8227l.so": {
+      "9212A": {
+        "size": 1396452,
+        "sha256": "a64d3163d661984119b3c2b708e8c7be8a6854d22094750b6157fcb230d528df"
+      },
+      "9212B": {
+        "size": 1396452,
+        "sha256": "a64d3163d661984119b3c2b708e8c7be8a6854d22094750b6157fcb230d528df"
+      }
+    },
+    "files/vendor/lib/libaudiosetting.so": {
+      "9212A": {
+        "size": 6056,
+        "sha256": "2a3ca789a88dc3fe1c54701c26a608429e818b5c7dbf75a2885f8d00e3b393bd"
+      },
+      "9212B": {
+        "size": 6056,
+        "sha256": "2a3ca789a88dc3fe1c54701c26a608429e818b5c7dbf75a2885f8d00e3b393bd"
+      }
+    },
+    "files/system/etc/default_volume_tables.xml": {
+      "9212A": {
+        "size": 2610,
+        "sha256": "42db24c0f02c0b4807ca82c802c6793c39980c3f87217f1cd32724fd8944f85a"
+      },
+      "9212B": {
+        "size": 2610,
+        "sha256": "42db24c0f02c0b4807ca82c802c6793c39980c3f87217f1cd32724fd8944f85a"
+      }
+    },
+    "files/system/lib/libaudiopolicymanagerdefault.so": {
+      "9212A": {
+        "size": 288296,
+        "sha256": "48385f046f10136289aaa439d0a8d5a796ed46fff49d0ea94e2fa2dd620fbcf7"
+      },
+      "9212B": {
+        "size": 288300,
+        "sha256": "55f26b8760c120fc394543ed06152bb58b00c649d4749d42320ea21089ee14b2"
+      }
+    },
+    "files/system/lib/libaudiopolicycustomextensions.so": {
+      "9212A": {
+        "size": 101160,
+        "sha256": "df115b8bdeb8f92b3b8bb2b575fa58d809a96ddf8300d134a244a20b8cd600bd"
+      },
+      "9212B": {
+        "size": 101152,
+        "sha256": "d796643464552a0af10864cc3909776652af88106ef7ae1e3745a662c4bc65e3"
+      }
+    },
+    "files/vendor/lib/soundfx/libbundlewrapper.so": {
+      "9212A": {
+        "size": 76772,
+        "sha256": "28cb863723dc3d5e992d64bc893d143886cbe8069d512fb964176d8dd7a223fe"
+      },
+      "9212B": {
+        "size": 76728,
+        "sha256": "33d5d3666978cb01513e6b0e6f65bebfe8b635fe0eb8ac4ffb28eb96bd0f31b3"
+      }
+    }
+  },
+  "subset_counts": {
+    "same": 1385,
+    "different": 103,
+    "one_package_only": 7
+  },
+  "arm2_differences": {
+    "count_bytes": 4,
+    "offsets_hex": [
+      "0x398b0",
+      "0x398b1",
+      "0x39bcc",
+      "0x39bdc"
+    ],
+    "instruction_at_0x398b0": {
+      "A": "mov r2, #768",
+      "B": "mov r2, #600"
+    }
+  },
+  "lk_differences": {
+    "count_bytes": 3,
+    "offsets_hex": [
+      "0x2b4a4",
+      "0x2b590",
+      "0x2b592"
+    ],
+    "instruction_at_0x2b4a2": {
+      "A": "mov.w sl, #768",
+      "B": "mov.w sl, #600"
+    }
+  }
+}

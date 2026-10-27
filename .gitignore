@@ -1,0 +1,12 @@
+*.ndjson
+*.raw
+*.apk
+*.ipa
+*.zip
+*.db
+*.log
+uploads.json
+analysis-private.json
+session-*.json
+__pycache__/
+.DS_Store
